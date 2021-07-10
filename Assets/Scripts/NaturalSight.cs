@@ -8,5 +8,15 @@ public class NaturalSight : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         Debug.Log("Enemies facing will be alerted.");
+        Debug.Log("Value returned" + gameObject.GetComponent<ExtendedEnemySight>().returnCollision());
+        if (gameObject.GetComponent<ExtendedEnemySight>().returnCollision() == true) //learned how to get functions from other classes
+        {
+            Destroy(GameObject.Find("Player"));
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        Debug.Log("Exited light, Enemies have normal vision");
     }
 }
