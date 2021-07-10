@@ -14,6 +14,8 @@ public class GameManager : MonoBehaviour
 
     public int slimeballs = 0;
 
+    public int GravityScale = 30;
+
     public void Awake()
     {
         if (instance == null)
@@ -37,7 +39,7 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
     public void LoadLevel(string levelToLoad)
@@ -56,5 +58,10 @@ public class GameManager : MonoBehaviour
     public void LoadNextScene()
     {
         SceneManager.LoadScene(currentScene += 1);
+    }
+
+    public void FlipGravity()
+    {
+        GravityScale *= -1;
     }
 }
