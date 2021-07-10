@@ -37,28 +37,31 @@ public class CamFollow : MonoBehaviour
         Vector3 startPos = transform.position;
 
         // Sets the player's current position to the endPos
-        Vector3 endPos = player.transform.position;
+        if (player != null)
+        {
+            Vector3 endPos = player.transform.position;
 
-        // Sets offset values based on the player's Vectors
-        endPos.x += posOffset.x;
-        endPos.y += posOffset.y;
-        // Manually set to a position in front of all scene elements
-        endPos.z = -30;
+            // Sets offset values based on the player's Vectors
+            endPos.x += posOffset.x;
+            endPos.y += posOffset.y;
+            // Manually set to a position in front of all scene elements
+            endPos.z = -30;
 
-        // Sets the cameras position to the new Vector3, with a smooth transition over time
-        // Passes in the start position, end positon, speed of the camera, and time delay
-        transform.position = Vector3.SmoothDamp(startPos, endPos, ref velocity, timeOffset);
+            // Sets the cameras position to the new Vector3, with a smooth transition over time
+            // Passes in the start position, end positon, speed of the camera, and time delay
+            transform.position = Vector3.SmoothDamp(startPos, endPos, ref velocity, timeOffset);
 
-        // Sets the new camera position
-        transform.position = new Vector3
-        (
-            // Clamps the camera transform for the x axis to the left and right limits
-            Mathf.Clamp(transform.position.x, leftLimit, rightLimit),
-            // Clamps the camera transform for the y axis to the top and bottom limits
-            Mathf.Clamp(transform.position.y, topLimit, bottomLimit),
-            // The Z transform doesn't need to change
-            transform.position.z
-        );
+            // Sets the new camera position
+            transform.position = new Vector3
+            (
+                // Clamps the camera transform for the x axis to the left and right limits
+                Mathf.Clamp(transform.position.x, leftLimit, rightLimit),
+                // Clamps the camera transform for the y axis to the top and bottom limits
+                Mathf.Clamp(transform.position.y, topLimit, bottomLimit),
+                // The Z transform doesn't need to change
+                transform.position.z
+            );
+        }        
     }
 
     #endregion Unity Methods

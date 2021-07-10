@@ -221,11 +221,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 637352457}
   timeOffset: 0.3
-  posOffset: {x: 0.5, y: 0.5}
+  posOffset: {x: 0.5, y: 3.4}
   leftLimit: -1
-  rightLimit: 8
-  topLimit: 0
-  bottomLimit: 0
+  rightLimit: 14
+  topLimit: -3
+  bottomLimit: 2.5
 --- !u!1001 &283207100
 PrefabInstance:
   m_ObjectHideFlags: 0
