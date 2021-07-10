@@ -16,4 +16,14 @@ public class Pickup : MonoBehaviour
     {
         
     }
+
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.tag == "Player")
+        {
+            GameManager.instance.slimeballs++;
+            Debug.Log("Slimeballs " + GameManager.instance.slimeballs);
+            Destroy(this.gameObject);
+        }
+    }
 }

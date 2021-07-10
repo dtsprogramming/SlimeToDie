@@ -7,10 +7,12 @@ public class GameManager : MonoBehaviour
 {
     public static GameManager instance;
 
-    public int currentScene = 0;
-
     public GameObject playerPrefab;
     public GameObject player;
+
+    public int currentScene = 0;
+
+    public int slimeballs = 0;
 
     public void Awake()
     {
