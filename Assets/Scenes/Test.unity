@@ -136,7 +136,7 @@ GameObject:
   - component: {fileID: 150980927}
   m_Layer: 0
   m_Name: Extended Enemy Sight
-  m_TagString: Untagged
+  m_TagString: ExtendLight
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -175,7 +175,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 150980924}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.47, y: -0.5, z: -12.919575}
+  m_LocalPosition: {x: -1.61, y: -2.34, z: -12.919575}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -333,6 +333,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bf71430eb928b8345af201f5dac482ca, type: 3}
+--- !u!1 &1052813215 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9021280645116388390, guid: 2193ff32ba2a98e4f89a1bdc3823e40a, type: 3}
+  m_PrefabInstance: {fileID: 1681295613}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1052813216
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1052813215}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fe7725d12a952b4a9a7018902ab63f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1417968591
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -399,6 +416,10 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 5611419565216763737, guid: 4aca7f085cdc8e84facd03a0b4316510, type: 3}
       propertyPath: m_Name
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 5611419565216763737, guid: 4aca7f085cdc8e84facd03a0b4316510, type: 3}
+      propertyPath: m_TagString
       value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 5611419565216763740, guid: 4aca7f085cdc8e84facd03a0b4316510, type: 3}
@@ -502,7 +523,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: AlienComplete
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 9176076200853530518, guid: 2193ff32ba2a98e4f89a1bdc3823e40a, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 2193ff32ba2a98e4f89a1bdc3823e40a, type: 3}
 --- !u!1 &1683517448 stripped
 GameObject:
@@ -572,11 +594,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4573166593616419776, guid: 816850cb0fd7c5e43b704f140ca2ccbe, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.47
+      value: -3.73
       objectReference: {fileID: 0}
     - target: {fileID: 4573166593616419776, guid: 816850cb0fd7c5e43b704f140ca2ccbe, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.74
+      value: -1.98
       objectReference: {fileID: 0}
     - target: {fileID: 4573166593616419776, guid: 816850cb0fd7c5e43b704f140ca2ccbe, type: 3}
       propertyPath: m_LocalPosition.z
@@ -614,5 +636,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Natural Sight
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 8368901691328246880, guid: 816850cb0fd7c5e43b704f140ca2ccbe, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 816850cb0fd7c5e43b704f140ca2ccbe, type: 3}

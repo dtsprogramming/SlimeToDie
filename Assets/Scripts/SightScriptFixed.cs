@@ -4,6 +4,20 @@ using UnityEngine;
 
 public class SightScriptFixed : MonoBehaviour
 {
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("Light"))
+        {
+            Debug.Log(collision.gameObject.name + " hit!");
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        
+    }
+
     // Start is called before the first frame update
     void Start()
     {
