@@ -11,6 +11,8 @@ public class PlayerMovement : MonoBehaviour
     private Rigidbody2D rb2d;
     private SpriteRenderer sr;
 
+    public int slimeballs = 0;
+
     // Start is called before the first frame update
     void Start()
     {
