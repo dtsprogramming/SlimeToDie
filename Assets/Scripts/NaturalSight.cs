@@ -6,8 +6,8 @@ using UnityEngine;
 public class NaturalSight : ExtendedEnemySight
 {
     static int count = 0;
-    
-    private void OnTriggerEnter2D(Collider2D collision)
+
+    private void OnTriggerStay2D(Collider2D collision)
     {
         Debug.Log("Enemies facing will be alerted.");
         Debug.Log("Value returned" + gameObject.GetComponent<ExtendedEnemySight>().returnCollision());
