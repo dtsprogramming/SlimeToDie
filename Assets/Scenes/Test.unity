@@ -616,11 +616,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sounds:
   - name: Theme
-    clip: {fileID: 8300000, guid: 166de11b2db73604fae5c47eef156d85, type: 3}
+    clip: {fileID: 8300000, guid: 4e262cd687e0d5349a684f7dbf76c780, type: 3}
     output: {fileID: 0}
     spacialBlend: 0
     volume: 0.21
-    pitch: 2
+    pitch: 1
     loop: 1
     source: {fileID: 0}
 --- !u!4 &1569331237
@@ -642,6 +642,23 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 7916894452937800613, guid: 3fd888cd423cbf44f9fb0c09b25f2ca7, type: 3}
   m_PrefabInstance: {fileID: 1832980268}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1590373257
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1590373256}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80f6718f5f3d6c44e85e4850ca0c1fd2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemy: {fileID: 1590373256}
+  moveSpeed: 2
+  waypoints:
+  - {fileID: 1997321918}
+  - {fileID: 392639788}
 --- !u!114 &1590373262
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -810,6 +827,10 @@ PrefabInstance:
       propertyPath: m_BodyType
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -3612975638960379565, guid: 3fd888cd423cbf44f9fb0c09b25f2ca7, type: 3}
+      propertyPath: m_Constraints
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 7173236812846589267, guid: 3fd888cd423cbf44f9fb0c09b25f2ca7, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -870,7 +891,8 @@ PrefabInstance:
       propertyPath: waypoints.Array.data[1]
       value: 
       objectReference: {fileID: 392639788}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 8051182467531454485, guid: 3fd888cd423cbf44f9fb0c09b25f2ca7, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 3fd888cd423cbf44f9fb0c09b25f2ca7, type: 3}
 --- !u!1 &1858535295
 GameObject:
