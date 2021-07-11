@@ -18,7 +18,7 @@ public class ButtonsStart : MonoBehaviour
     }
     public void StartGame()
     {
-        SceneManager.LoadScene("Level_1");
+        SceneManager.LoadScene("Test");
     }
 
     public void QuitGame()
