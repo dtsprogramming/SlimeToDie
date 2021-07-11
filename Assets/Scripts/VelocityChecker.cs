@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Data;
 using UnityEngine;
 
 public class VelocityChecker : MonoBehaviour
@@ -12,11 +13,13 @@ public class VelocityChecker : MonoBehaviour
     float velocity;
 
     private SpriteRenderer renderer;
+    private Animator anim;
 
     private void Awake()
     {
         pos = transform.position.x;
         renderer = gameObject.GetComponent<SpriteRenderer>();
+        anim = gameObject.GetComponent<Animator>();
     }
 
     private void Update()
@@ -45,5 +48,13 @@ public class VelocityChecker : MonoBehaviour
             objRight2.SetActive(true);
             renderer.flipX = false;
         }
+    }
+
+    public void DisableLights()
+    {
+        Destroy(objLeft1);
+        Destroy(objLeft2);
+        Destroy(objRight1);
+        Destroy(objRight2);
     }
 }

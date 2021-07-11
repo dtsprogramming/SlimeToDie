@@ -32,7 +32,6 @@ public class KillOportunityCollider : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.E) && canDestroy)
         {
             StartCoroutine(Wait());
-            
         }
     }
 
