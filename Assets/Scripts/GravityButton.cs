@@ -48,10 +48,12 @@ public class GravityButton : MonoBehaviour
             // Change sprite
             if (renderer.sprite.name == "Lever2")
             {
+                FindObjectOfType<AudioManager>().Play("Switch");
                 renderer.sprite = Off;
             }
             else if (renderer.sprite.name == "Lever")
             {
+                FindObjectOfType<AudioManager>().Play("Switch");
                 renderer.sprite = On;
             }
         }

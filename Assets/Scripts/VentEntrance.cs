@@ -78,6 +78,7 @@ public class VentEntrance : MonoBehaviour
     IEnumerator Wait()
     {
         EnterVentAnim();
+        FindObjectOfType<AudioManager>().Play("Vent");
         yield return new WaitForSeconds(1);
         player.GetComponent<Transform>().position = inside.transform.position;
     }

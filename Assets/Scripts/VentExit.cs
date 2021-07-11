@@ -30,6 +30,7 @@ public class VentExit : MonoBehaviour
             //Debug.Log("Exit vent?");
             if (Input.GetKeyDown(KeyCode.E))
             {
+                FindObjectOfType<AudioManager>().Play("Vent");
                 //Debug.Log("Key press detected, activating now!");
                 player = GameObject.FindGameObjectWithTag("Player");
                 player.GetComponent<Transform>().position = outside.transform.position;

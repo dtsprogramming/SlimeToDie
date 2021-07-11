@@ -31,6 +31,7 @@ public class FinalDoor : MonoBehaviour
     {
         if (other.tag == "Player" && GameManager.instance.slimeballs >= SlimeNeededToOpen)
         {
+            FindObjectOfType<AudioManager>().Play("Door");
             OpenDoor();
         }
         

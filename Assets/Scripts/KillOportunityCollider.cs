@@ -73,6 +73,7 @@ public class KillOportunityCollider : MonoBehaviour
         AttackAnim();
         yield return new WaitForSeconds(3);
         EnemyAnimator.Play("AlienDeath");
+        FindObjectOfType<AudioManager>().Play("AlienDeath");
         yield return new WaitForSeconds(3);
         Destroy(transform.parent.gameObject);
     }

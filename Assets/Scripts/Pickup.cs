@@ -18,6 +18,7 @@ public class Pickup : MonoBehaviour
     {
         if (other.tag == "Player")
         {
+            FindObjectOfType<AudioManager>().Play("Pickup");
             GameManager.instance.slimeballs++;
             //Debug.Log("Slimeballs " + GameManager.instance.slimeballs);
             Destroy(this.gameObject);

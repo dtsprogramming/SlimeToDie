@@ -29,6 +29,7 @@ public class PlayerDeath : MonoBehaviour
     {
 
         anim.Play("PlayerDeath");
+        FindObjectOfType<AudioManager>().Play("PlayerDeath");
         yield return new WaitForSeconds(2);
         gameObject.GetComponent<BoxCollider2D>().enabled = true;
         gameObject.GetComponent<PlayerMovement>().enabled = true;

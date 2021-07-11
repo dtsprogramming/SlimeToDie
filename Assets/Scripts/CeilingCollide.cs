@@ -26,6 +26,7 @@ public class CeilingCollide : MonoBehaviour
     IEnumerator Wait()
     {
         anim.Play("AlienDeath");
+        FindObjectOfType<AudioManager>().Play("Splatter");
         rb2d.constraints = RigidbodyConstraints2D.FreezePositionX;
         gameObject.GetComponent<AINavigation>().enabled = false;
         renderer.flipY = true;
