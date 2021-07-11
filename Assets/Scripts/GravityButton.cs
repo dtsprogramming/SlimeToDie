@@ -6,11 +6,13 @@ public class GravityButton : MonoBehaviour
 
     private bool GravityIsFlipped;
     private GameObject player;
+    private Animator anim;
 
     // Start is called before the first frame update
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player");
+        anim = player.GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -24,7 +26,19 @@ public class GravityButton : MonoBehaviour
         if (other.tag == "Player")
         {
             GameManager.instance.FlipGravity();
+            GravityAnimation();
             // FlipGravity();
+
+            // if true, make false etc
+            // Flips player with Gravity
+            if (GameObject.FindGameObjectWithTag("Player").GetComponent<SpriteRenderer>().flipY == false)
+            {
+                GameObject.FindGameObjectWithTag("Player").GetComponent<SpriteRenderer>().flipY = true;
+            }
+            else if (GameObject.FindGameObjectWithTag("Player").GetComponent<SpriteRenderer>().flipY == true)
+            {
+                GameObject.FindGameObjectWithTag("Player").GetComponent<SpriteRenderer>().flipY = false;
+            }
         }
     }
 
@@ -38,5 +52,10 @@ public class GravityButton : MonoBehaviour
         {
             player.GetComponent<Rigidbody2D>().gravityScale = 20;
         }
+    }
+
+    private void GravityAnimation()
+    {
+        anim.Play("PlayerGravityFlip");
     }
 }
