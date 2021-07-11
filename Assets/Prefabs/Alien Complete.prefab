@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 2732287230657181339}
   - component: {fileID: 2732287230657181338}
   - component: {fileID: 2732287230657181337}
+  - component: {fileID: 741171747711339141}
   m_Layer: 0
   m_Name: Alien Complete
   m_TagString: Untagged
@@ -88,6 +89,38 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!114 &741171747711339141
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2732287230657181341}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 475abd7856f8e8d4391d991b0127d0b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objLeft1: {fileID: 5302250588335045748}
+  objLeft2: {fileID: 4334731982341848676}
+  objRight1: {fileID: 2702145807178248294}
+  objRight2: {fileID: 569622795996064733}
+--- !u!114 &8639680673204189397
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5203202716770539187}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 475abd7856f8e8d4391d991b0127d0b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objLeft1: {fileID: 5302250588335045748}
+  objLeft2: {fileID: 4334731982341848676}
+  objRight1: {fileID: 2702145807178248294}
+  objRight2: {fileID: 569622795996064733}
 --- !u!1001 &2732287231148076310
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -147,6 +180,11 @@ PrefabInstance:
     - {fileID: 8714818620287923276, guid: 3fd888cd423cbf44f9fb0c09b25f2ca7, type: 3}
     - {fileID: 2056471002402904875, guid: 3fd888cd423cbf44f9fb0c09b25f2ca7, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 3fd888cd423cbf44f9fb0c09b25f2ca7, type: 3}
+--- !u!1 &5203202716770539187 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7916894452937800613, guid: 3fd888cd423cbf44f9fb0c09b25f2ca7, type: 3}
+  m_PrefabInstance: {fileID: 2732287231148076310}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &5073159993337006149 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7173236812846589267, guid: 3fd888cd423cbf44f9fb0c09b25f2ca7, type: 3}
@@ -205,10 +243,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1856335199928689296, guid: 81986697d6291324ab35e09a42edc3b9, type: 3}
       propertyPath: m_Name
-      value: Enemy Sight
+      value: Enemy Sight Left
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 81986697d6291324ab35e09a42edc3b9, type: 3}
+--- !u!1 &4334731982341848676 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1856335199928689296, guid: 81986697d6291324ab35e09a42edc3b9, type: 3}
+  m_PrefabInstance: {fileID: 2732287232203234548}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &4334731982341848696 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1856335199928689292, guid: 81986697d6291324ab35e09a42edc3b9, type: 3}
@@ -223,7 +266,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7817800436765240084, guid: b8a67b05ea098c5469821181becbba68, type: 3}
       propertyPath: m_Name
-      value: Kill Opportunity
+      value: Kill Opportunity Left
       objectReference: {fileID: 0}
     - target: {fileID: 7817800436765240089, guid: b8a67b05ea098c5469821181becbba68, type: 3}
       propertyPath: m_RootOrder
@@ -271,6 +314,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b8a67b05ea098c5469821181becbba68, type: 3}
+--- !u!1 &5302250588335045748 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7817800436765240084, guid: b8a67b05ea098c5469821181becbba68, type: 3}
+  m_PrefabInstance: {fileID: 2732287232233297760}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &5302250588335045753 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7817800436765240089, guid: b8a67b05ea098c5469821181becbba68, type: 3}
@@ -329,10 +377,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1856335199928689296, guid: 81986697d6291324ab35e09a42edc3b9, type: 3}
       propertyPath: m_Name
-      value: Enemy Sight (1)
+      value: Enemy Sight Right
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 81986697d6291324ab35e09a42edc3b9, type: 3}
+--- !u!1 &2702145807178248294 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1856335199928689296, guid: 81986697d6291324ab35e09a42edc3b9, type: 3}
+  m_PrefabInstance: {fileID: 4376641549042586358}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &2702145807178248314 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1856335199928689292, guid: 81986697d6291324ab35e09a42edc3b9, type: 3}
@@ -347,7 +400,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7817800436765240084, guid: b8a67b05ea098c5469821181becbba68, type: 3}
       propertyPath: m_Name
-      value: Kill Opportunity (1)
+      value: Kill Opportunity Right
       objectReference: {fileID: 0}
     - target: {fileID: 7817800436765240089, guid: b8a67b05ea098c5469821181becbba68, type: 3}
       propertyPath: m_RootOrder
@@ -395,6 +448,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b8a67b05ea098c5469821181becbba68, type: 3}
+--- !u!1 &569622795996064733 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7817800436765240084, guid: b8a67b05ea098c5469821181becbba68, type: 3}
+  m_PrefabInstance: {fileID: 7753471198134419657}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &569622795996064720 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7817800436765240089, guid: b8a67b05ea098c5469821181becbba68, type: 3}
