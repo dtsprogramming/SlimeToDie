@@ -1,0 +1,1044 @@
+fileFormatVersion: 2
+guid: 516cddac683b75d4c845f4f5dda4881f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8281452097359957622
+    second: playserslimespritesheet1_0
+  - first:
+      213: -6613134432983311227
+    second: playserslimespritesheet1_1
+  - first:
+      213: 569619409657150808
+    second: playserslimespritesheet1_2
+  - first:
+      213: 3751432699330960302
+    second: playserslimespritesheet1_3
+  - first:
+      213: 1111440444783405193
+    second: playserslimespritesheet1_4
+  - first:
+      213: 6974304295188816708
+    second: playserslimespritesheet1_5
+  - first:
+      213: -8097582861913402155
+    second: playserslimespritesheet1_6
+  - first:
+      213: 2352450295043743406
+    second: playserslimespritesheet1_7
+  - first:
+      213: -8349440606479373584
+    second: playserslimespritesheet1_8
+  - first:
+      213: -9191108806913242116
+    second: playserslimespritesheet1_9
+  - first:
+      213: 8951520063713855573
+    second: playserslimespritesheet1_10
+  - first:
+      213: -2145971842848643092
+    second: playserslimespritesheet1_11
+  - first:
+      213: 7462221052182489256
+    second: playserslimespritesheet1_12
+  - first:
+      213: -9121364381405178081
+    second: playserslimespritesheet1_13
+  - first:
+      213: 7759979753429531209
+    second: playserslimespritesheet1_14
+  - first:
+      213: -1106898204075741389
+    second: playserslimespritesheet1_15
+  - first:
+      213: -9131821116117031380
+    second: playserslimespritesheet1_16
+  - first:
+      213: 1178269123285434169
+    second: playserslimespritesheet1_17
+  - first:
+      213: -2403892935822769881
+    second: playserslimespritesheet1_18
+  - first:
+      213: -7451144109960580598
+    second: playserslimespritesheet1_19
+  - first:
+      213: 4248534680723632507
+    second: playserslimespritesheet1_20
+  - first:
+      213: -2364178445198381716
+    second: playserslimespritesheet1_21
+  - first:
+      213: -6994912747353027522
+    second: playserslimespritesheet1_22
+  - first:
+      213: 3266336576793299146
+    second: playserslimespritesheet1_23
+  - first:
+      213: 358777380774529351
+    second: playserslimespritesheet1_24
+  - first:
+      213: 1511974613959841534
+    second: playserslimespritesheet1_25
+  - first:
+      213: 2942844508112245218
+    second: playserslimespritesheet1_26
+  - first:
+      213: -1168100479996134589
+    second: playserslimespritesheet1_27
+  - first:
+      213: 7277645925977756728
+    second: playserslimespritesheet1_28
+  - first:
+      213: -1896276799836573015
+    second: playserslimespritesheet1_29
+  - first:
+      213: -4305003198191284413
+    second: playserslimespritesheet1_30
+  - first:
+      213: 163263033628030201
+    second: playserslimespritesheet1_31
+  - first:
+      213: 8972201013978391775
+    second: playserslimespritesheet1_32
+  - first:
+      213: -3804466865753296734
+    second: playserslimespritesheet1_33
+  - first:
+      213: 7856450164270155653
+    second: playserslimespritesheet1_34
+  - first:
+      213: -4752028001239601413
+    second: playserslimespritesheet1_35
+  - first:
+      213: 594060403819767089
+    second: playserslimespritesheet1_36
+  - first:
+      213: 7722866027596824673
+    second: playserslimespritesheet1_37
+  - first:
+      213: -5491965942626745911
+    second: playserslimespritesheet1_38
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: playserslimespritesheet1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4102
+        width: 428
+        height: 586
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a813278c13f521d80800000000000000
+      internalID: -8281452097359957622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playserslimespritesheet1_1
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 4102
+        width: 428
+        height: 586
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58c1026654d6934a0800000000000000
+      internalID: -6613134432983311227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playserslimespritesheet1_2
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 4102
+        width: 428
+        height: 586
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85d38c9c5d1b7e700800000000000000
+      internalID: 569619409657150808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playserslimespritesheet1_3
+      rect:
+        serializedVersion: 2
+        x: 1284
+        y: 4102
+        width: 428
+        height: 586
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eab18620a24cf0430800000000000000
+      internalID: 3751432699330960302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playserslimespritesheet1_4
+      rect:
+        serializedVersion: 2
+        x: 1712
+        y: 4102
+        width: 428
+        height: 586
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98821542231ac6f00800000000000000
+      internalID: 1111440444783405193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playserslimespritesheet1_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3516
+        width: 428
+        height: 586
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 443e5361ec4b9c060800000000000000
+      internalID: 6974304295188816708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playserslimespritesheet1_6
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 3516
+        width: 428
+        height: 586
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d45c583a4b9f9f80800000000000000
+      internalID: -8097582861913402155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playserslimespritesheet1_7
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 3516
+        width: 428
+        height: 586
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eae58db541595a020800000000000000
+      internalID: 2352450295043743406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playserslimespritesheet1_8
+      rect:
+        serializedVersion: 2
+        x: 1284
+        y: 3516
+        width: 428
+        height: 586
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fa23917104d02c80800000000000000
+      internalID: -8349440606479373584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playserslimespritesheet1_9
+      rect:
+        serializedVersion: 2
+        x: 1712
+        y: 3516
+        width: 428
+        height: 586
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfbc8f79c3f927080800000000000000
+      internalID: -9191108806913242116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playserslimespritesheet1_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2930
+        width: 428
+        height: 586
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 558427d12103a3c70800000000000000
+      internalID: 8951520063713855573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playserslimespritesheet1_11
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 2930
+        width: 428
+        height: 586
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce724019af9f732e0800000000000000
+      internalID: -2145971842848643092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playserslimespritesheet1_12
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 2930
+        width: 428
+        height: 586
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a867caa2822f8760800000000000000
+      internalID: 7462221052182489256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playserslimespritesheet1_13
+      rect:
+        serializedVersion: 2
+        x: 1284
+        y: 2930
+        width: 428
+        height: 586
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1791731c676a6180800000000000000
+      internalID: -9121364381405178081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playserslimespritesheet1_14
+      rect:
+        serializedVersion: 2
+        x: 1712
+        y: 2930
+        width: 428
+        height: 586
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94af36bb87cf0bb60800000000000000
+      internalID: 7759979753429531209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playserslimespritesheet1_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2344
+        width: 428
+        height: 586
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33f2c8fa2f183a0f0800000000000000
+      internalID: -1106898204075741389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playserslimespritesheet1_16
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 2344
+        width: 428
+        height: 586
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c26ee6dc311454180800000000000000
+      internalID: -9131821116117031380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playserslimespritesheet1_17
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 2344
+        width: 428
+        height: 586
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93f3d3f568d0a5010800000000000000
+      internalID: 1178269123285434169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playserslimespritesheet1_18
+      rect:
+        serializedVersion: 2
+        x: 1284
+        y: 2344
+        width: 428
+        height: 586
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 721863a7c18a3aed0800000000000000
+      internalID: -2403892935822769881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playserslimespritesheet1_19
+      rect:
+        serializedVersion: 2
+        x: 1712
+        y: 2344
+        width: 428
+        height: 586
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a023e8be8e7389890800000000000000
+      internalID: -7451144109960580598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playserslimespritesheet1_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1758
+        width: 428
+        height: 586
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b71b57c48c3d5fa30800000000000000
+      internalID: 4248534680723632507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playserslimespritesheet1_21
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 1758
+        width: 428
+        height: 586
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6da054ea30c03fd0800000000000000
+      internalID: -2364178445198381716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playserslimespritesheet1_22
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 1758
+        width: 428
+        height: 586
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3ccb2bbae31dee90800000000000000
+      internalID: -6994912747353027522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playserslimespritesheet1_23
+      rect:
+        serializedVersion: 2
+        x: 1284
+        y: 1758
+        width: 428
+        height: 586
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac841a09fcb545d20800000000000000
+      internalID: 3266336576793299146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playserslimespritesheet1_24
+      rect:
+        serializedVersion: 2
+        x: 1712
+        y: 1758
+        width: 428
+        height: 586
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 749c28e7022aaf400800000000000000
+      internalID: 358777380774529351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playserslimespritesheet1_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1172
+        width: 428
+        height: 586
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef61c7e86ec9bf410800000000000000
+      internalID: 1511974613959841534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playserslimespritesheet1_26
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 1172
+        width: 428
+        height: 586
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e15d3ffc7517d820800000000000000
+      internalID: 2942844508112245218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playserslimespritesheet1_27
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 1172
+        width: 428
+        height: 586
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34bfdd36dc21acfe0800000000000000
+      internalID: -1168100479996134589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playserslimespritesheet1_28
+      rect:
+        serializedVersion: 2
+        x: 1284
+        y: 1172
+        width: 428
+        height: 586
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83419fa39646ff460800000000000000
+      internalID: 7277645925977756728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playserslimespritesheet1_29
+      rect:
+        serializedVersion: 2
+        x: 1712
+        y: 1172
+        width: 428
+        height: 586
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a23de52c421fa5e0800000000000000
+      internalID: -1896276799836573015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playserslimespritesheet1_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 586
+        width: 428
+        height: 586
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34f43ee666e8144c0800000000000000
+      internalID: -4305003198191284413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playserslimespritesheet1_31
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 586
+        width: 428
+        height: 586
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f4f9543dd6044200800000000000000
+      internalID: 163263033628030201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playserslimespritesheet1_32
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 586
+        width: 428
+        height: 586
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd4e4931949a38c70800000000000000
+      internalID: 8972201013978391775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playserslimespritesheet1_33
+      rect:
+        serializedVersion: 2
+        x: 1284
+        y: 586
+        width: 428
+        height: 586
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a0f703ea81d33bc0800000000000000
+      internalID: -3804466865753296734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playserslimespritesheet1_34
+      rect:
+        serializedVersion: 2
+        x: 1712
+        y: 586
+        width: 428
+        height: 586
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 587c1e49cc7b70d60800000000000000
+      internalID: 7856450164270155653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playserslimespritesheet1_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 428
+        height: 586
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfe676fc5b76d0eb0800000000000000
+      internalID: -4752028001239601413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playserslimespritesheet1_36
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 0
+        width: 428
+        height: 586
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1356dc03ac68e3800800000000000000
+      internalID: 594060403819767089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playserslimespritesheet1_37
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 0
+        width: 428
+        height: 586
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16047de0cb12d2b60800000000000000
+      internalID: 7722866027596824673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playserslimespritesheet1_38
+      rect:
+        serializedVersion: 2
+        x: 1284
+        y: 0
+        width: 428
+        height: 586
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c18037a21e98c3b0800000000000000
+      internalID: -5491965942626745911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

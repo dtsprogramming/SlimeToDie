@@ -48,3 +48,5 @@ MonoBehaviour:
   currentScene: 0
   slimeballs: 0
   GravityScale: 30
+  scoretext: {fileID: 0}
+  VentText: {fileID: 0}

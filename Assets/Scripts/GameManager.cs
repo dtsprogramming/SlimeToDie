@@ -15,6 +15,7 @@ public class GameManager : MonoBehaviour
     public int currentScene = 0;
 
     public int slimeballs = 0;
+    public int slimeballsNeeded = 10;
 
     public int GravityScale = 30;
 
@@ -46,7 +47,7 @@ public class GameManager : MonoBehaviour
     void Update()
     {
         // handle UI value
-        scoretext.text = slimeballs + "/10";
+        scoretext.text = slimeballs + "/" + slimeballsNeeded;
     }
 
     public void LoadLevel(string levelToLoad)

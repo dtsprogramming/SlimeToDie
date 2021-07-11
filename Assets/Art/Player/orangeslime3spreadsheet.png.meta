@@ -1,0 +1,804 @@
+fileFormatVersion: 2
+guid: 9fcb74c3fd6fdd24b882ed2c2e6c7d1b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 559428998510716680
+    second: orangeslime3spreadsheet_0
+  - first:
+      213: -7570549375906508327
+    second: orangeslime3spreadsheet_1
+  - first:
+      213: 2147014955860933223
+    second: orangeslime3spreadsheet_2
+  - first:
+      213: 2459542463087435619
+    second: orangeslime3spreadsheet_3
+  - first:
+      213: -8398635271133042878
+    second: orangeslime3spreadsheet_4
+  - first:
+      213: 5214040813274778016
+    second: orangeslime3spreadsheet_5
+  - first:
+      213: -4145814505100137694
+    second: orangeslime3spreadsheet_6
+  - first:
+      213: 8047309675827024904
+    second: orangeslime3spreadsheet_7
+  - first:
+      213: -5568580856294897315
+    second: orangeslime3spreadsheet_8
+  - first:
+      213: 4148169302147560314
+    second: orangeslime3spreadsheet_9
+  - first:
+      213: 4701240338758221694
+    second: orangeslime3spreadsheet_10
+  - first:
+      213: 1640765999304064465
+    second: orangeslime3spreadsheet_11
+  - first:
+      213: -3284296280183767805
+    second: orangeslime3spreadsheet_12
+  - first:
+      213: 8441051237940042478
+    second: orangeslime3spreadsheet_13
+  - first:
+      213: -2475022564993794345
+    second: orangeslime3spreadsheet_14
+  - first:
+      213: 7554339505542868045
+    second: orangeslime3spreadsheet_15
+  - first:
+      213: 5650288167066304855
+    second: orangeslime3spreadsheet_16
+  - first:
+      213: -2861905571218688444
+    second: orangeslime3spreadsheet_17
+  - first:
+      213: 1585052726623144775
+    second: orangeslime3spreadsheet_18
+  - first:
+      213: 3147182055045734793
+    second: orangeslime3spreadsheet_19
+  - first:
+      213: -2401607786975898438
+    second: orangeslime3spreadsheet_20
+  - first:
+      213: 9214416826659564118
+    second: orangeslime3spreadsheet_21
+  - first:
+      213: 513908802915484305
+    second: orangeslime3spreadsheet_22
+  - first:
+      213: 3569719284311671668
+    second: orangeslime3spreadsheet_23
+  - first:
+      213: 211022900733799279
+    second: orangeslime3spreadsheet_24
+  - first:
+      213: 2758217986171985004
+    second: orangeslime3spreadsheet_25
+  - first:
+      213: -9215927954211126818
+    second: orangeslime3spreadsheet_26
+  - first:
+      213: -3193317598683603605
+    second: orangeslime3spreadsheet_27
+  - first:
+      213: -4859118768008984169
+    second: orangeslime3spreadsheet_28
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: orangeslime3spreadsheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2695
+        width: 394
+        height: 539
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 807a84dc5bd73c700800000000000000
+      internalID: 559428998510716680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orangeslime3spreadsheet_1
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 2695
+        width: 394
+        height: 539
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d1998ef37100f690800000000000000
+      internalID: -7570549375906508327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orangeslime3spreadsheet_2
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 2695
+        width: 394
+        height: 539
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76aba8b1ababbcd10800000000000000
+      internalID: 2147014955860933223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orangeslime3spreadsheet_3
+      rect:
+        serializedVersion: 2
+        x: 1182
+        y: 2695
+        width: 394
+        height: 539
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36fd056c6dc022220800000000000000
+      internalID: 2459542463087435619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orangeslime3spreadsheet_4
+      rect:
+        serializedVersion: 2
+        x: 1576
+        y: 2695
+        width: 394
+        height: 539
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2476c0208bd027b80800000000000000
+      internalID: -8398635271133042878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orangeslime3spreadsheet_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2156
+        width: 394
+        height: 539
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a9c1a79e7efb5840800000000000000
+      internalID: 5214040813274778016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orangeslime3spreadsheet_6
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 2156
+        width: 394
+        height: 539
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22b28de4cab1776c0800000000000000
+      internalID: -4145814505100137694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orangeslime3spreadsheet_7
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 2156
+        width: 394
+        height: 539
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 804db318389cdaf60800000000000000
+      internalID: 8047309675827024904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orangeslime3spreadsheet_8
+      rect:
+        serializedVersion: 2
+        x: 1182
+        y: 2156
+        width: 394
+        height: 539
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d59808df63d68b2b0800000000000000
+      internalID: -5568580856294897315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orangeslime3spreadsheet_9
+      rect:
+        serializedVersion: 2
+        x: 1576
+        y: 2156
+        width: 394
+        height: 539
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a737faa9002419930800000000000000
+      internalID: 4148169302147560314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orangeslime3spreadsheet_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1617
+        width: 394
+        height: 539
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7fbb6b0e292e3140800000000000000
+      internalID: 4701240338758221694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orangeslime3spreadsheet_11
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 1617
+        width: 394
+        height: 539
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ddbe04bbfb25c610800000000000000
+      internalID: 1640765999304064465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orangeslime3spreadsheet_12
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 1617
+        width: 394
+        height: 539
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30d72822fe5db62d0800000000000000
+      internalID: -3284296280183767805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orangeslime3spreadsheet_13
+      rect:
+        serializedVersion: 2
+        x: 1182
+        y: 1617
+        width: 394
+        height: 539
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eea9948d063a42570800000000000000
+      internalID: 8441051237940042478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orangeslime3spreadsheet_14
+      rect:
+        serializedVersion: 2
+        x: 1576
+        y: 1617
+        width: 394
+        height: 539
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7def7722714f6add0800000000000000
+      internalID: -2475022564993794345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orangeslime3spreadsheet_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1078
+        width: 394
+        height: 539
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4c259471c766d860800000000000000
+      internalID: 7554339505542868045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orangeslime3spreadsheet_16
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 1078
+        width: 394
+        height: 539
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7518494c62bd96e40800000000000000
+      internalID: 5650288167066304855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orangeslime3spreadsheet_17
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 1078
+        width: 394
+        height: 539
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4467cc6cb087848d0800000000000000
+      internalID: -2861905571218688444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orangeslime3spreadsheet_18
+      rect:
+        serializedVersion: 2
+        x: 1182
+        y: 1078
+        width: 394
+        height: 539
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74b03a09e0d3ff510800000000000000
+      internalID: 1585052726623144775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orangeslime3spreadsheet_19
+      rect:
+        serializedVersion: 2
+        x: 1576
+        y: 1078
+        width: 394
+        height: 539
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9812c7297690dab20800000000000000
+      internalID: 3147182055045734793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orangeslime3spreadsheet_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 539
+        width: 394
+        height: 539
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab45d772176cbaed0800000000000000
+      internalID: -2401607786975898438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orangeslime3spreadsheet_21
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 539
+        width: 394
+        height: 539
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65aec65a84f20ef70800000000000000
+      internalID: 9214416826659564118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orangeslime3spreadsheet_22
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 539
+        width: 394
+        height: 539
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19249bc5555c12700800000000000000
+      internalID: 513908802915484305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orangeslime3spreadsheet_23
+      rect:
+        serializedVersion: 2
+        x: 1182
+        y: 539
+        width: 394
+        height: 539
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4734241a6c03a8130800000000000000
+      internalID: 3569719284311671668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orangeslime3spreadsheet_24
+      rect:
+        serializedVersion: 2
+        x: 1576
+        y: 539
+        width: 394
+        height: 539
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6be5bdc534bde200800000000000000
+      internalID: 211022900733799279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orangeslime3spreadsheet_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 394
+        height: 539
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6cdfde05a8274620800000000000000
+      internalID: 2758217986171985004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orangeslime3spreadsheet_26
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 0
+        width: 394
+        height: 539
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed147ad8a527a1080800000000000000
+      internalID: -9215927954211126818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orangeslime3spreadsheet_27
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 0
+        width: 394
+        height: 539
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6dd57b109e0fa3d0800000000000000
+      internalID: -3193317598683603605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orangeslime3spreadsheet_28
+      rect:
+        serializedVersion: 2
+        x: 1182
+        y: 0
+        width: 394
+        height: 539
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7990467a931f09cb0800000000000000
+      internalID: -4859118768008984169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
