@@ -1,5 +1,24 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!95 &3886262078838197568
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3580035561414631530}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b3735815bf71a8b4ab0457d2f248eadc, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!114 &846109714011266257
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26,7 +45,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemy: {fileID: 3580035561414631530}
   moveSpeed: 2
-  waypoints: []
+  waypoints:
+  - {fileID: 0}
+  - {fileID: 0}
 --- !u!1 &3580035561838179463
 GameObject:
   m_ObjectHideFlags: 0
@@ -259,6 +280,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Robot
       objectReference: {fileID: 0}
+    - target: {fileID: 7637936044069588316, guid: d02b8d58f8d837b48b2db76aa91494b4, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 2.64
+      objectReference: {fileID: 0}
+    - target: {fileID: 7637936044069588316, guid: d02b8d58f8d837b48b2db76aa91494b4, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 3.32
+      objectReference: {fileID: 0}
     - target: {fileID: 7637936044069588317, guid: d02b8d58f8d837b48b2db76aa91494b4, type: 3}
       propertyPath: objLeft1
       value: 
@@ -267,6 +296,22 @@ PrefabInstance:
       propertyPath: objRight1
       value: 
       objectReference: {fileID: 2913213676138324748}
+    - target: {fileID: 7637936044069588318, guid: d02b8d58f8d837b48b2db76aa91494b4, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -4079593562004298125, guid: 156377ce3d2c73949b3479004f9795a9, type: 3}
+    - target: {fileID: 7637936044069588318, guid: d02b8d58f8d837b48b2db76aa91494b4, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7637936044069588318, guid: d02b8d58f8d837b48b2db76aa91494b4, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7637936044069588318, guid: d02b8d58f8d837b48b2db76aa91494b4, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d02b8d58f8d837b48b2db76aa91494b4, type: 3}
 --- !u!1 &3580035561414631530 stripped

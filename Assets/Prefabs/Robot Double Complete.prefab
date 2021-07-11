@@ -53,6 +53,25 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!95 &1836280428201709784
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2868173263129583381}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: ad85fa1b686e1024f9c1e6bfe4947bef, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1001 &582209276220527602
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -108,8 +127,37 @@ PrefabInstance:
       propertyPath: m_Name
       value: Robot Double
       objectReference: {fileID: 0}
+    - target: {fileID: 3447963059515247849, guid: a1efae3e149370a4c9a74c2cc476aebe, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 2.64
+      objectReference: {fileID: 0}
+    - target: {fileID: 3447963059515247849, guid: a1efae3e149370a4c9a74c2cc476aebe, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 3.32
+      objectReference: {fileID: 0}
+    - target: {fileID: 3447963059515247851, guid: a1efae3e149370a4c9a74c2cc476aebe, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -4569499912538220803, guid: 81aedf18a6679d34eab2d4cfde3cc641, type: 3}
+    - target: {fileID: 3447963059515247851, guid: a1efae3e149370a4c9a74c2cc476aebe, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3447963059515247851, guid: a1efae3e149370a4c9a74c2cc476aebe, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3447963059515247851, guid: a1efae3e149370a4c9a74c2cc476aebe, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a1efae3e149370a4c9a74c2cc476aebe, type: 3}
+--- !u!1 &2868173263129583381 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3447963059515247847, guid: a1efae3e149370a4c9a74c2cc476aebe, type: 3}
+  m_PrefabInstance: {fileID: 582209276220527602}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &2868173263129583380 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3447963059515247846, guid: a1efae3e149370a4c9a74c2cc476aebe, type: 3}
