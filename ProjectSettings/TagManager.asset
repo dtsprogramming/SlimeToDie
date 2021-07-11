@@ -7,6 +7,7 @@ TagManager:
   - Alien
   - Light
   - ExtendLight
+  - Sight
   layers:
   - Default
   - TransparentFX
