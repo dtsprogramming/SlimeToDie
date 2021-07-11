@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UIElements;
+using TMPro;
 
 public class VentEntrance : MonoBehaviour
 {
@@ -13,10 +14,13 @@ public class VentEntrance : MonoBehaviour
 
     private bool canEnter = false;
 
+    // Player UI
+    public TMP_Text entertext;
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        entertext = GameManager.instance.VentText;
     }
 
     // Update is called once per frame
@@ -31,6 +35,10 @@ public class VentEntrance : MonoBehaviour
                 player = GameObject.FindGameObjectWithTag("Player");
                 player.GetComponent<Transform>().position = inside.transform.position;
             }
+        }
+        else
+        {
+           
         }
     }
 
@@ -47,6 +55,15 @@ public class VentEntrance : MonoBehaviour
         if (other.gameObject.tag == "Player")
         {
             canEnter = false;
+            entertext.text = "";
+        }
+    }
+
+    void OnTriggerStay2D(Collider2D other)
+    {
+        if (other.gameObject.tag == "Player")
+        {
+            entertext.text = "Press E to enter vent.";
         }
     }
 }

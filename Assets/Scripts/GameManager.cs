@@ -1,5 +1,9 @@
+using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
+using UnityEngine.UIElements;
+using TMPro;
 
 public class GameManager : MonoBehaviour
 {
@@ -13,6 +17,10 @@ public class GameManager : MonoBehaviour
     public int slimeballs = 0;
 
     public int GravityScale = 30;
+
+    // Player UI
+    public TMP_Text scoretext;
+    public TMP_Text VentText;
 
     public void Awake()
     {
@@ -37,7 +45,8 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+        // handle UI value
+        scoretext.text = slimeballs + "/10";
     }
 
     public void LoadLevel(string levelToLoad)

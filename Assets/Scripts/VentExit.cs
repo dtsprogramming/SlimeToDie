@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UIElements;
+using TMPro;
 
 public class VentExit : MonoBehaviour
 {
@@ -11,10 +13,13 @@ public class VentExit : MonoBehaviour
 
     private bool canEnter = false;
 
+    // Player UI
+    public TMP_Text entertext;
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        entertext = GameManager.instance.VentText;
     }
 
     // Update is called once per frame
@@ -30,6 +35,10 @@ public class VentExit : MonoBehaviour
                 player.GetComponent<Transform>().position = outside.transform.position;
             }
         }
+        else
+        {
+            
+        }
     }
 
     void OnTriggerEnter2D(Collider2D other)
@@ -44,6 +53,15 @@ public class VentExit : MonoBehaviour
         if (other.gameObject.tag == "Player")
         {
             canEnter = false;
+            entertext.text = "";
+        }
+    }
+
+    void OnTriggerStay2D(Collider2D other)
+    {
+        if (other.gameObject.tag == "Player")
+        {
+            entertext.text = "Press E to exit vent.";
         }
     }
 }
