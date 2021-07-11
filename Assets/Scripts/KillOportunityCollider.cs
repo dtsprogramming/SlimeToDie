@@ -6,16 +6,22 @@ public class KillOportunityCollider : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        Debug.Log("collided");
-        canDestroy = true;
-        Debug.Log(canDestroy);
+        if (collision.tag == "Player")
+        {
+            //Debug.Log("collided");
+            canDestroy = true;
+            Debug.Log(canDestroy);
+        }
     }
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-        Debug.Log("Exit");
-        canDestroy = false;
-        Debug.Log(canDestroy);
+        if (collision.tag == "Player")
+        {
+            //Debug.Log("Exit");
+            canDestroy = false;
+            Debug.Log(canDestroy);
+        }
     }
 
     private void Update()
