@@ -11,6 +11,9 @@ public class FinalDoor : MonoBehaviour
     public GameObject cubeCollision;
     private TMP_Text hintText;
 
+    public Sprite Closed;
+    public Sprite Open;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -57,15 +60,19 @@ public class FinalDoor : MonoBehaviour
         // gameObject.SetActive(false);
 
         // disable sprite renederer and box collision
-        renderer.enabled = false;
+        // renderer.enabled = false;
         cubeCollision.SetActive(false);
+
+        renderer.sprite = Open;
     }
 
     void CloseDoor()
     {
         // gameObject.SetActive(true);
         // enable sprite renederer and box collision
-        renderer.enabled = true;
+        // renderer.enabled = true;
         cubeCollision.SetActive(true);
+
+        renderer.sprite = Closed;
     }
 }
