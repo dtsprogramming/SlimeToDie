@@ -1,19 +1,28 @@
 fileFormatVersion: 2
-guid: 4222cb703b1de0248a213fda86e44ce4
+guid: 8788133dd51ca1d44b55ce82f867dd8b
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7297345555194245300
-    second: palyerslimespritesheet2_0
+      213: -4430862194154352276
+    second: doubleeyedrobotspritesheet_0
   - first:
-      213: 8041013117572091164
-    second: palyerslimespritesheet2_1
+      213: 7210754404394080143
+    second: doubleeyedrobotspritesheet_1
   - first:
-      213: 3967679302588076175
-    second: palyerslimespritesheet2_2
+      213: -3331505765007212124
+    second: doubleeyedrobotspritesheet_2
   - first:
-      213: -5544295874668143315
-    second: palyerslimespritesheet2_3
+      213: -7613924019142054308
+    second: doubleeyedrobotspritesheet_3
+  - first:
+      213: 2070755128305219821
+    second: doubleeyedrobotspritesheet_4
+  - first:
+      213: -7808082755207289955
+    second: doubleeyedrobotspritesheet_5
+  - first:
+      213: -5600547082283414369
+    second: doubleeyedrobotspritesheet_6
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -103,13 +112,118 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: palyerslimespritesheet2_0
+      name: doubleeyedrobotspritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 332
+        width: 264
+        height: 332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c61d8b46f4a6282c0800000000000000
+      internalID: -4430862194154352276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doubleeyedrobotspritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 332
+        width: 264
+        height: 332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f871e743deeb11460800000000000000
+      internalID: 7210754404394080143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doubleeyedrobotspritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 332
+        width: 264
+        height: 332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a14495682d14c1d0800000000000000
+      internalID: -3331505765007212124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doubleeyedrobotspritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 332
+        width: 264
+        height: 332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5e2934e178e55690800000000000000
+      internalID: -7613924019142054308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doubleeyedrobotspritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 332
+        width: 264
+        height: 332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de8737f51dcccbc10800000000000000
+      internalID: 2070755128305219821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doubleeyedrobotspritesheet_5
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 540
-        height: 540
+        width: 264
+        height: 332
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -117,20 +231,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4b0f0a49e11654560800000000000000
-      internalID: 7297345555194245300
+      spriteID: d9324076a1e14a390800000000000000
+      internalID: -7808082755207289955
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: palyerslimespritesheet2_1
+      name: doubleeyedrobotspritesheet_6
       rect:
         serializedVersion: 2
-        x: 540
+        x: 264
         y: 0
-        width: 540
-        height: 540
+        width: 264
+        height: 332
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -138,50 +252,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c1d042bc3da679f60800000000000000
-      internalID: 8041013117572091164
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: palyerslimespritesheet2_2
-      rect:
-        serializedVersion: 2
-        x: 1080
-        y: 0
-        width: 540
-        height: 540
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f809e65dd47001730800000000000000
-      internalID: 3967679302588076175
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: palyerslimespritesheet2_3
-      rect:
-        serializedVersion: 2
-        x: 1620
-        y: 0
-        width: 540
-        height: 540
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d2dddb4e644be03b0800000000000000
-      internalID: -5544295874668143315
+      spriteID: f9c85a40a1cd642b0800000000000000
+      internalID: -5600547082283414369
       vertices: []
       indices: 
       edges: []

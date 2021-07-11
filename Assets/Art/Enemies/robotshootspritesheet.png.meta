@@ -1,13 +1,25 @@
 fileFormatVersion: 2
-guid: 7ba0c96ea9cddb842a9d35bc02ca0b39
+guid: af337b7c974170e4588db6642bf74cbe
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5835786592789223954
-    second: Pink Slime_0
+      213: 6466811220359552764
+    second: robotshootspritesheet_0
   - first:
-      213: 8003054936629477713
-    second: Pink Slime_1
+      213: -813613507187291352
+    second: robotshootspritesheet_1
+  - first:
+      213: -1337426476279551279
+    second: robotshootspritesheet_2
+  - first:
+      213: -2534051369870150992
+    second: robotshootspritesheet_3
+  - first:
+      213: -3972319635134136420
+    second: robotshootspritesheet_4
+  - first:
+      213: -2892164018170597331
+    second: robotshootspritesheet_5
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -97,13 +109,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Pink Slime_0
+      name: robotshootspritesheet_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 900
-        height: 900
+        y: 332
+        width: 264
+        height: 332
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -111,20 +123,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ee5afcf530f130fa0800000000000000
-      internalID: -5835786592789223954
+      spriteID: cfe9a03da8abeb950800000000000000
+      internalID: 6466811220359552764
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pink Slime_1
+      name: robotshootspritesheet_1
       rect:
         serializedVersion: 2
-        x: 900
-        y: 0
-        width: 900
-        height: 900
+        x: 264
+        y: 332
+        width: 264
+        height: 332
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -132,8 +144,92 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1518cb71010901f60800000000000000
-      internalID: 8003054936629477713
+      spriteID: 82b44af63d675b4f0800000000000000
+      internalID: -813613507187291352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robotshootspritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 332
+        width: 264
+        height: 332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1daa720b4b1807de0800000000000000
+      internalID: -1337426476279551279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robotshootspritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 332
+        width: 264
+        height: 332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b23c4084bd35dcd0800000000000000
+      internalID: -2534051369870150992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robotshootspritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 332
+        width: 264
+        height: 332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9f358d865c7fd8c0800000000000000
+      internalID: -3972319635134136420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robotshootspritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 264
+        height: 332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2076c81628fcd7d0800000000000000
+      internalID: -2892164018170597331
       vertices: []
       indices: 
       edges: []
