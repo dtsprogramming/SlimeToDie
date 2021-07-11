@@ -1088,7 +1088,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7583856942445721391, guid: 2542a9ea0b1aa0541b2856f9584285ad, type: 3}
       propertyPath: GravityScale
-      value: 1
+      value: 30
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2542a9ea0b1aa0541b2856f9584285ad, type: 3}
