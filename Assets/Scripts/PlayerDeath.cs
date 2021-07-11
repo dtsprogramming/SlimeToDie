@@ -21,6 +21,7 @@ public class PlayerDeath : MonoBehaviour
             gameObject.GetComponent<BoxCollider2D>().enabled = false;
             gameObject.GetComponent<PlayerMovement>().enabled = false;
             gameObject.GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.FreezePositionY;
+            gameObject.GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.FreezePositionX;
             StartCoroutine(Wait());
         }
     }
@@ -35,5 +36,6 @@ public class PlayerDeath : MonoBehaviour
         gameObject.GetComponent<PlayerMovement>().enabled = true;
         transform.position = respawn.transform.position;
         gameObject.GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.None;
+        gameObject.GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.FreezeRotation;
     }
 }
