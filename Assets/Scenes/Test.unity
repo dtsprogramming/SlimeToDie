@@ -1384,7 +1384,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5611419565216763740, guid: 4aca7f085cdc8e84facd03a0b4316510, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -5.47
+      value: -9.43
       objectReference: {fileID: 0}
     - target: {fileID: 5611419565216763740, guid: 4aca7f085cdc8e84facd03a0b4316510, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1807,11 +1807,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4102621699250947469, guid: 22e58ffa5a21ba146a52d363dca5e396, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -8.48
+      value: -8.86
       objectReference: {fileID: 0}
     - target: {fileID: 4102621699250947469, guid: 22e58ffa5a21ba146a52d363dca5e396, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.75
+      value: -4.04
       objectReference: {fileID: 0}
     - target: {fileID: 4102621699250947469, guid: 22e58ffa5a21ba146a52d363dca5e396, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1921,11 +1921,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2756751999877032498, guid: daeaad474daee60408eac5c1974a6ff0, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -5.05
+      value: -5.43
       objectReference: {fileID: 0}
     - target: {fileID: 2756751999877032498, guid: daeaad474daee60408eac5c1974a6ff0, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.57
+      value: -2.22
       objectReference: {fileID: 0}
     - target: {fileID: 2756751999877032498, guid: daeaad474daee60408eac5c1974a6ff0, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2012,6 +2012,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3195943102498014827, guid: 222e622e3b4c0b04194403dc78da4ca7, type: 3}
+      propertyPath: Open
+      value: 
+      objectReference: {fileID: -7632169939461755284, guid: 1a873f7675e5f3d4f9340b825012f2aa, type: 3}
+    - target: {fileID: 3195943102498014827, guid: 222e622e3b4c0b04194403dc78da4ca7, type: 3}
+      propertyPath: Closed
+      value: 
+      objectReference: {fileID: -5410186997650086302, guid: 1a873f7675e5f3d4f9340b825012f2aa, type: 3}
     - target: {fileID: 3195943102498014831, guid: 222e622e3b4c0b04194403dc78da4ca7, type: 3}
       propertyPath: m_Name
       value: Door

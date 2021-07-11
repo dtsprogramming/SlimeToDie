@@ -26,7 +26,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3195943102498014831}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -21.28778, y: -3.8898947, z: 0.5426368}
   m_LocalScale: {x: 1, y: 1.1367, z: 1}
   m_Children:
@@ -126,6 +126,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SlimeNeededToOpen: 1
   cubeCollision: {fileID: 3195943104040012831}
+  Closed: {fileID: -5410186997650086302, guid: 1a873f7675e5f3d4f9340b825012f2aa, type: 3}
+  Open: {fileID: -7632169939461755284, guid: 1a873f7675e5f3d4f9340b825012f2aa, type: 3}
 --- !u!1 &3195943104040012831
 GameObject:
   m_ObjectHideFlags: 0
