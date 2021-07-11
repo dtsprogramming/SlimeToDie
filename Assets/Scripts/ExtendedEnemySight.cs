@@ -15,9 +15,12 @@ public class ExtendedEnemySight : MonoBehaviour
 
     public void OnTriggerExit2D(Collider2D collision)
     {
-        collide = false;
-        Debug.Log("Exited extended vision. collide = " + collide);
-        returnCollision();
+        if (collision.tag == "Player")
+        {
+            collide = false;
+            Debug.Log("Exited extended vision. collide = " + collide);
+            returnCollision();
+        }
     }
 
     public bool returnCollision()

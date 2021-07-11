@@ -10,9 +10,10 @@ GameObject:
   m_Component:
   - component: {fileID: 7173236812846589267}
   - component: {fileID: 2960444124187117994}
-  - component: {fileID: 8051182467531454485}
   - component: {fileID: -3612975638960379565}
   - component: {fileID: -8886681514825865196}
+  - component: {fileID: 8714818620287923276}
+  - component: {fileID: 2056471002402904875}
   m_Layer: 0
   m_Name: Alien
   m_TagString: Untagged
@@ -86,18 +87,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &8051182467531454485
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7916894452937800613}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2fe7725d12a952b4a9a7018902ab63f8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!50 &-3612975638960379565
 Rigidbody2D:
   serializedVersion: 4
@@ -145,3 +134,30 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 2}
   m_EdgeRadius: 0
+--- !u!114 &8714818620287923276
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7916894452937800613}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2c64e3027cef6643bae4d36852f17c7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2056471002402904875
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7916894452937800613}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80f6718f5f3d6c44e85e4850ca0c1fd2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemy: {fileID: 7916894452937800613}
+  moveSpeed: 2
+  waypoints: []
