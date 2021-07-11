@@ -13,6 +13,7 @@ public class Alien : MonoBehaviour
     [SerializeField] List<Transform> waypoints;
     [SerializeField] float moveSpeed = 2f;
     int waypointIndex = 1;
+    bool ok = false;
 
     // Start is called before the first frame update
     void Start()
@@ -21,19 +22,46 @@ public class Alien : MonoBehaviour
     }
 
     // Update is called once per frame
+    // George take a look at using out of bounds exception handling
+    /*
+     * while (!ok7) {
+                            try {
+                                item = items.get(in.nextInt() - 1);
+                                ok7 = true;
+                            } catch (IndexOutOfBoundsException e) {
+                                System.out.println("Please choose from the following options");
+                                System.out.println(items.toString());
+                                in.nextLine();
+                            } catch (InputMismatchException e) {
+                                System.out.println("Please choose from the following options");
+                                System.out.println(items.toString());
+                                in.nextLine();
+                            }
+    }
+     */
     void Update()
     {
-        var wayPointStart = waypoints[0].transform.position.x;
-        var wayPointEnd = waypoints[1].transform.position.x;
-
+        Debug.Log("First Call " + waypointIndex);
+        while (!ok)
+        {
+            try
+            {
+                var wayPointStart = waypoints[0].transform.position.x;
+                var wayPointEnd = waypoints[1].transform.position.x;
+            } catch (System.IndexOutOfRangeException e)
+            {
+                Debug.Log("Caught!");
+            }
+        }
+        Debug.Log("Call after define waypointend " + waypointIndex);
         var targetPosition = waypoints[waypointIndex].transform.position.x;
         var movementThisFrame = moveSpeed * Time.deltaTime;
-
+        Debug.Log("Call after target position and movement this Frame " + waypointIndex);
         Vector2 newTarget = new Vector2(targetPosition, transform.position.y);
-
+        Debug.Log("Call after vector 2 newTarget made " +waypointIndex);
         // move alien towards target at all times
         transform.position = Vector2.MoveTowards(transform.position, newTarget, movementThisFrame);
-
+        Debug.Log(waypointIndex);
         // check shit idk
         if (transform.position.x == targetPosition)
         {
