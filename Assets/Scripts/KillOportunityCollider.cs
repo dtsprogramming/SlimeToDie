@@ -26,7 +26,7 @@ public class KillOportunityCollider : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetMouseButtonDown(0) && canDestroy)
+        if (Input.GetKeyDown(KeyCode.E) && canDestroy)
         {
             Destroy(transform.parent.gameObject);
         }
