@@ -53,35 +53,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &5152007239949403215
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2868173263129583381}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e2c64e3027cef6643bae4d36852f17c7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &6838622527977439537
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2868173263129583381}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 80f6718f5f3d6c44e85e4850ca0c1fd2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  enemy: {fileID: 2868173263129583381}
-  moveSpeed: 2
-  waypoints:
-  - {fileID: 0}
-  - {fileID: 0}
 --- !u!1001 &582209276220527602
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -139,11 +110,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a1efae3e149370a4c9a74c2cc476aebe, type: 3}
---- !u!1 &2868173263129583381 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3447963059515247847, guid: a1efae3e149370a4c9a74c2cc476aebe, type: 3}
-  m_PrefabInstance: {fileID: 582209276220527602}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &2868173263129583380 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3447963059515247846, guid: a1efae3e149370a4c9a74c2cc476aebe, type: 3}
