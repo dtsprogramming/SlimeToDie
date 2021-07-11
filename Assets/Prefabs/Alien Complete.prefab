@@ -53,6 +53,37 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!95 &6478687975541277061
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5203202716770539187}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: aa65db96cd691284795d935b4868d486, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &862376902441564575
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5203202716770539187}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 12309144c188b134c8a6467852f78b1c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &5057085812662376377
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -96,18 +127,6 @@ MonoBehaviour:
   objLeft2: {fileID: 4334731982341848676}
   objRight1: {fileID: 2702145807178248294}
   objRight2: {fileID: 569622795996064733}
---- !u!114 &862376902441564575
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5203202716770539187}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 12309144c188b134c8a6467852f78b1c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &2732287231148076310
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -115,6 +134,30 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2732287230657181336}
     m_Modifications:
+    - target: {fileID: -8886681514825865196, guid: 3fd888cd423cbf44f9fb0c09b25f2ca7, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 3.23
+      objectReference: {fileID: 0}
+    - target: {fileID: -8886681514825865196, guid: 3fd888cd423cbf44f9fb0c09b25f2ca7, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 3.52
+      objectReference: {fileID: 0}
+    - target: {fileID: 2960444124187117994, guid: 3fd888cd423cbf44f9fb0c09b25f2ca7, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 4697210466294529889, guid: e06a4de1bf54b7648a15416720a9d93c, type: 3}
+    - target: {fileID: 2960444124187117994, guid: 3fd888cd423cbf44f9fb0c09b25f2ca7, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2960444124187117994, guid: 3fd888cd423cbf44f9fb0c09b25f2ca7, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2960444124187117994, guid: 3fd888cd423cbf44f9fb0c09b25f2ca7, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7173236812846589267, guid: 3fd888cd423cbf44f9fb0c09b25f2ca7, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -251,6 +294,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Kill Opportunity Left
       objectReference: {fileID: 0}
+    - target: {fileID: 7817800436765240087, guid: b8a67b05ea098c5469821181becbba68, type: 3}
+      propertyPath: EnemyAnimator
+      value: 
+      objectReference: {fileID: 6478687975541277061}
     - target: {fileID: 7817800436765240089, guid: b8a67b05ea098c5469821181becbba68, type: 3}
       propertyPath: m_RootOrder
       value: 0

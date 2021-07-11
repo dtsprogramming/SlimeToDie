@@ -10,9 +10,13 @@ public class VelocityChecker : MonoBehaviour
     [SerializeField] public GameObject objRight2;
     float pos;
     float velocity;
+
+    private SpriteRenderer renderer;
+
     private void Awake()
     {
         pos = transform.position.x;
+        renderer = gameObject.GetComponent<SpriteRenderer>();
     }
 
     private void Update()
@@ -31,6 +35,7 @@ public class VelocityChecker : MonoBehaviour
             objLeft2.SetActive(true);
             objRight1.SetActive(false);
             objRight2.SetActive(false);
+            renderer.flipX = true;
         }
         else if (velocity > 0)
         {
@@ -38,6 +43,7 @@ public class VelocityChecker : MonoBehaviour
             objLeft2.SetActive(false);
             objRight1.SetActive(true);
             objRight2.SetActive(true);
+            renderer.flipX = false;
         }
     }
 }

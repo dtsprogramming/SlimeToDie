@@ -12,6 +12,8 @@ public class KillOportunityCollider : MonoBehaviour
     private GameObject player;
     private Animator anim;
 
+    public Animator EnemyAnimator;
+
     // Player UI
     public TMP_Text entertext;
 
@@ -70,6 +72,8 @@ public class KillOportunityCollider : MonoBehaviour
     IEnumerator Wait()
     {
         AttackAnim();
+        yield return new WaitForSeconds(3);
+        EnemyAnimator.Play("AlienDeath");
         yield return new WaitForSeconds(3);
         Destroy(transform.parent.gameObject);
     }
