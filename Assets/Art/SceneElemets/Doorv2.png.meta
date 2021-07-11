@@ -1,13 +1,19 @@
 fileFormatVersion: 2
-guid: 7ba0c96ea9cddb842a9d35bc02ca0b39
+guid: 1a873f7675e5f3d4f9340b825012f2aa
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5835786592789223954
-    second: Pink Slime_0
+      213: -5410186997650086302
+    second: Doorv2_0
   - first:
-      213: 8003054936629477713
-    second: Pink Slime_1
+      213: -1693705750534728641
+    second: Doorv2_1
+  - first:
+      213: 999302496896586307
+    second: Doorv2_2
+  - first:
+      213: -7632169939461755284
+    second: Doorv2_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -97,13 +103,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Pink Slime_0
+      name: Doorv2_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 900
-        height: 900
+        width: 316
+        height: 334
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -111,20 +117,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ee5afcf530f130fa0800000000000000
-      internalID: -5835786592789223954
+      spriteID: 26621ac07972be4b0800000000000000
+      internalID: -5410186997650086302
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pink Slime_1
+      name: Doorv2_1
       rect:
         serializedVersion: 2
-        x: 900
+        x: 316
         y: 0
-        width: 900
-        height: 900
+        width: 316
+        height: 334
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -132,8 +138,50 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1518cb71010901f60800000000000000
-      internalID: 8003054936629477713
+      spriteID: f345751f79fbe78e0800000000000000
+      internalID: -1693705750534728641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doorv2_2
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 0
+        width: 316
+        height: 334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3429eae835c3edd00800000000000000
+      internalID: 999302496896586307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doorv2_3
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 0
+        width: 316
+        height: 334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6ea7f480e5151690800000000000000
+      internalID: -7632169939461755284
       vertices: []
       indices: 
       edges: []

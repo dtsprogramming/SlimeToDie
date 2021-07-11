@@ -7,7 +7,7 @@ public class EnemySight : MonoBehaviour
     {
         if (collision.tag == "Player")
         {
-            Destroy(GameObject.Find("Player"));
+            //Destroy(GameObject.Find("Player"));
         }
     }
 }
