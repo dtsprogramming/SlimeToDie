@@ -29,7 +29,7 @@ public class FinalDoor : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.tag == "Player" && GameManager.instance.slimeballs == SlimeNeededToOpen)
+        if (other.tag == "Player" && GameManager.instance.slimeballs >= SlimeNeededToOpen)
         {
             OpenDoor();
         }
@@ -38,7 +38,7 @@ public class FinalDoor : MonoBehaviour
 
     void OnTriggerExit2D(Collider2D other)
     {
-        if (other.tag == "Player" && GameManager.instance.slimeballs == SlimeNeededToOpen)
+        if (other.tag == "Player")
         {
             CloseDoor();
         }
@@ -48,7 +48,7 @@ public class FinalDoor : MonoBehaviour
 
     void OnTriggerStay2D(Collider2D other)
     {
-        if (other.tag == "Player" && GameManager.instance.slimeballs != SlimeNeededToOpen)
+        if (other.tag == "Player" && GameManager.instance.slimeballs < SlimeNeededToOpen)
         {
             hintText.text = "You need " + SlimeNeededToOpen + " to open this door.";
         }

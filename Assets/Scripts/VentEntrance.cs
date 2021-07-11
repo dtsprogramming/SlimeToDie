@@ -11,6 +11,7 @@ public class VentEntrance : MonoBehaviour
     public Collider2D outsideCollider;
 
     private GameObject player;
+    private Animator anim;
 
     private bool canEnter = false;
 
@@ -21,6 +22,8 @@ public class VentEntrance : MonoBehaviour
     void Start()
     {
         entertext = GameManager.instance.VentText;
+        player = GameObject.FindGameObjectWithTag("Player");
+        anim = player.GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -33,12 +36,12 @@ public class VentEntrance : MonoBehaviour
             {
                 //Debug.Log("Key press detected, activating now!");
                 player = GameObject.FindGameObjectWithTag("Player");
-                player.GetComponent<Transform>().position = inside.transform.position;
+                StartCoroutine(Wait());
             }
         }
         else
         {
-           
+
         }
     }
 
@@ -65,5 +68,17 @@ public class VentEntrance : MonoBehaviour
         {
             entertext.text = "Press E to enter vent.";
         }
+    }
+
+    void EnterVentAnim()
+    {
+        anim.Play("PlayerVentEnter");
+    }
+
+    IEnumerator Wait()
+    {
+        EnterVentAnim();
+        yield return new WaitForSeconds(1);
+        player.GetComponent<Transform>().position = inside.transform.position;
     }
 }
