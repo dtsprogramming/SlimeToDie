@@ -5,10 +5,12 @@ using UnityEngine;
 public class PlayerDeath : MonoBehaviour
 {
     private Animator anim;
+    private GameObject respawn;
 
     void Start()
     {
         anim = gameObject.GetComponent<Animator>();
+        respawn = GameObject.FindGameObjectWithTag("Respawn");
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -30,7 +32,7 @@ public class PlayerDeath : MonoBehaviour
         yield return new WaitForSeconds(2);
         gameObject.GetComponent<BoxCollider2D>().enabled = true;
         gameObject.GetComponent<PlayerMovement>().enabled = true;
-        transform.position = GameObject.Find("Respawn").transform.position;
+        transform.position = respawn.transform.position;
         gameObject.GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.None;
     }
 }

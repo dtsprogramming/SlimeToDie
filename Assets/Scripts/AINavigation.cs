@@ -16,6 +16,8 @@ public class AINavigation : MonoBehaviour
     private bool isWaypointStart = true;
     private Transform tf;
 
+    public float waypointOffset;
+
     #endregion Variables
 
     #region Unity Methods
@@ -38,8 +40,8 @@ public class AINavigation : MonoBehaviour
     void NavigateWaypoints()
     {
         // Set targets based on waypoint 'x' and enemy 'y'.
-        targetPosStart = new Vector2(waypoints[1].transform.position.x, tf.position.y);
-        targetPosEnd = new Vector2(waypoints[0].transform.position.x, tf.position.y);
+        targetPosStart = new Vector2(waypoints[1].transform.position.x + waypointOffset, tf.position.y);
+        targetPosEnd = new Vector2(waypoints[0].transform.position.x + waypointOffset, tf.position.y);
 
         // Checks if the current waypoint is the starting waypoint.
         if (isWaypointStart)
