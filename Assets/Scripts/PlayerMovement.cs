@@ -15,7 +15,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private float lowJumpMultiplier = 2f;
     [SerializeField] private Transform feetPos;
     [SerializeField] private LayerMask whatIsGround;
-    [SerializeField] [Range(0, 10)] private float jumpVelocity;
+    [SerializeField] [Range(0, 100)] private float jumpVelocity;
 
     private float checkRadius;
     private bool isGrounded;
