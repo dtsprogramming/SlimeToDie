@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class ExtendedEnemySight : MonoBehaviour
 {
+    /*
     static bool collide = false;
     public void OnTriggerEnter2D(Collider2D collision)
     {
@@ -28,4 +29,5 @@ public class ExtendedEnemySight : MonoBehaviour
         Debug.Log("returnCollision = " + collide);
         return collide;
     }
+    */
 }

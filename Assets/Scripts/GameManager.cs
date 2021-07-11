@@ -32,7 +32,7 @@ public class GameManager : MonoBehaviour
         else
         {
             Destroy(this.gameObject);
-            Debug.LogError(message: "I tried to create a second game manager.");
+            //Debug.LogError(message: "I tried to create a second game manager.");
         }
     }
 
