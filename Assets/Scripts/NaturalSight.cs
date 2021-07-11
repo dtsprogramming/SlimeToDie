@@ -3,6 +3,7 @@ using UnityEngine;
 
 public class NaturalSight : ExtendedEnemySight
 {
+    /*
     static int count = 0;
 
     private void OnTriggerStay2D(Collider2D collision)
@@ -27,4 +28,5 @@ public class NaturalSight : ExtendedEnemySight
             Debug.Log("Exited light, Enemies have normal vision");
         }
     }
+    */
 }

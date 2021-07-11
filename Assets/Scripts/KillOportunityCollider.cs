@@ -1,8 +1,13 @@
 using UnityEngine;
+using UnityEngine.UIElements;
+using TMPro;
 
 public class KillOportunityCollider : MonoBehaviour
 {
     bool canDestroy = false;
+
+    // Player UI
+    public TMP_Text entertext;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -31,4 +36,18 @@ public class KillOportunityCollider : MonoBehaviour
             Destroy(transform.parent.gameObject);
         }
     }
+
+    void Start()
+    {
+        entertext = GameManager.instance.VentText;
+    }
+
+    void OnTriggerStay2D(Collider2D other)
+    {
+        if (other.gameObject.tag == "Player")
+        {
+            entertext.text = "Press E to assassinate.";
+        }
+    }
 }
+

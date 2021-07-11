@@ -28,10 +28,10 @@ public class VentEntrance : MonoBehaviour
     {
         if (canEnter == true)
         {
-            Debug.Log("Enter vent?");
+            //Debug.Log("Enter vent?");
             if (Input.GetKeyDown(KeyCode.E))
             {
-                Debug.Log("Key press detected, activating now!");
+                //Debug.Log("Key press detected, activating now!");
                 player = GameObject.FindGameObjectWithTag("Player");
                 player.GetComponent<Transform>().position = inside.transform.position;
             }

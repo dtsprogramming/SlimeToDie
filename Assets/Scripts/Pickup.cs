@@ -19,7 +19,7 @@ public class Pickup : MonoBehaviour
         if (other.tag == "Player")
         {
             GameManager.instance.slimeballs++;
-            Debug.Log("Slimeballs " + GameManager.instance.slimeballs);
+            //Debug.Log("Slimeballs " + GameManager.instance.slimeballs);
             Destroy(this.gameObject);
         }
     }

@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 1856335199928689297}
   m_Layer: 0
   m_Name: Enemy Sight
-  m_TagString: Untagged
+  m_TagString: Sight
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
